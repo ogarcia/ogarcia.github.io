@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+  background-color:#444;
+  //background: url(bgbw.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:Helvetica, Arial, Verdana, sans-serif;
+}
+
+#info {
+	position:absolute;
+	bottom:12%;
+	width:100%;
+	color:#000;
+	background-color:rgba(0,0,0,0.7);
+	padding:10px 0 10px 0;
+}
+
+.block {
+	margin-left:15%;
+}
+
+
+#photo { float:left}
+#photo img{
+	display:block;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+}
+
+#cont {
+	margin-left:150px;
+	color:#fff;
+}
+
+h1 {
+	display:inline;
+	font-weight:400;
+	font-size:200%;
+	text-shadow:0 1px 0 rgba(0,0,0,0.7)
+}
+
+#cont .logo {
+}
+
+.hide { display:none; }
+
+#top {
+	padding:6px 0 0 0;
+}
+
+#bottom a {
+	float:left;
+	opacity:0.4;
+	margin-right:10px;
+	color:#fff;
+}
+
+span {
+	font-size:160%;
+	display:block;
+	margin:8px 0 0 0;
+}
+
+.logo a {
+	opacity:0.6;
+}
+
+#bottom a, .logo a {
+
+   -o-transition:opacity .5s ease-in-out;
+   -ms-transition:opacity .5s ease-in-out;
+   -moz-transition:opacity .5s ease-in-out;
+   -webkit-transition:opacity .5s ease-in-out;
+
+   transition:opacity .5s ease-in-out;
+
+}
+
+#bottom a:hover, .logo a:hover {
+	opacity:1;
+	cursor:pointer;
+}
+
+a { text-decoration:none; color:#fff; }

@@ -129,7 +129,7 @@
   margin-bottom: -14px; }
 .hint--right:before, .hint--right:after {
   left: 100%;
-  bottom: 60%; }
+  bottom: 50%; }
 .hint--right:hover:before, .hint--right:hover:after {
   -webkit-transform: translateX(8px);
   -moz-transform: translateX(8px);
@@ -145,7 +145,7 @@
   margin-bottom: -14px; }
 .hint--left:before, .hint--left:after {
   right: 100%;
-  bottom: 60%; }
+  bottom: 50%; }
 .hint--left:hover:before, .hint--left:hover:after {
   -webkit-transform: translateX(-8px);
   -moz-transform: translateX(-8px);

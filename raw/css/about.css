@@ -50,8 +50,7 @@ table {
 
 
 html {
-  background-color:#444;
-  //background: url(bgbw.jpg) no-repeat center center fixed;
+  background: url(img/bgbw.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -95,10 +94,21 @@ h1 {
 #cont .logo {
 }
 
+.logo a {
+	margin:8px 0 0 0;
+	width: 143px;
+	height: 25px;
+	background-image:url("img/connectical.svg")
+}
+
 .hide { display:none; }
 
 #top {
 	padding:6px 0 0 0;
+}
+
+#bottom {
+	margin:16px 0 0 0;
 }
 
 #bottom a {
@@ -108,10 +118,8 @@ h1 {
 	color:#fff;
 }
 
-span {
+#bottom span {
 	font-size:160%;
-	display:block;
-	margin:8px 0 0 0;
 }
 
 .logo a {

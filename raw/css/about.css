@@ -108,7 +108,7 @@ h1 {
 }
 
 #bottom {
-	margin:16px 0 0 0;
+	margin:12px 0 0 0;
 }
 
 #bottom a {
@@ -120,6 +120,7 @@ h1 {
 
 #bottom span {
 	font-size:160%;
+	margin:4px 0 0 0;
 }
 
 .logo a {

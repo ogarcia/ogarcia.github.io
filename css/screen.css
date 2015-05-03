@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Gruppo);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	background: url(../img/bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+	min-height: 100%;
+	font-family:"Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+}
+
+#info {
+	position: absolute;
+	bottom: 12%;
+	width: 100%;
+	/*overflow-x: auto;*/
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px 0 20px 0;
+}
+
+#block {
+	margin-left: 12%;
+}
+
+#img { float: left }
+#img img {
+	width: 140px;
+	border-radius: 50%;
+}
+
+#cont {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: 160px;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Gruppo', normal;
+	font-weight: 400;
+	font-size: 350%;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.7);
+}
+
+#top {
+	padding-bottom: 6px;
+	white-space: nowrap;
+}
+
+#bot {
+	font-size: 180%;
+	margin-left: 12px;
+	padding-top: 6px;
+	white-space: nowrap;
+}
+
+#bot a {
+	float: left;
+	margin-right: 30px;
+	opacity: 0.4;
+	transition:opacity .5s ease-in-out;
+}
+
+#bot a:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+a { text-decoration:none; color:#fff; }
+
+.hide { display:none }
+
+@media screen and (max-width: 800px) {
+	
+	#block { margin-left: 8% }
+	
+	h1 { font-size: 280% }
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#info { padding: 30px 0 30px 0 }
+
+	#block { margin-left: 4% }
+
+	#img img { width: 60px }
+
+	#cont {
+		margin-left: 70px;
+		margin-top: -40px;
+	}
+
+	h1 { font-size: 280% }
+
+	#top { padding-bottom: 2px }
+	#bot {
+		font-size: 140%;
+		padding-top: 2px;
+		margin-left: 8px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	#cont { margin-top: -26px }
+
+	h1 { font-size: 160% }
+
+	#top { padding-bottom: 1px }
+	#bot {
+		font-size: 120%;
+		padding-top: 1px;
+		margin-left: 6px;
+		white-space: inherit;
+	}
+	#bot a { margin-right: 20px }
+
+}

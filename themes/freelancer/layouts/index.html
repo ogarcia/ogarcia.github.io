@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" itemscope itemtype="http://schema.org/Person">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+    {{ partial "header.html" . }}
+    {{ partial "about.html" . }}
+    {{ partial "social.html" . }}
+    {{ partial "contact.html" . }}
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+    {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+  </body>
+</html>

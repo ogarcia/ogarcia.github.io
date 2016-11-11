@@ -1,0 +1,161 @@
+# Site settings
+baseurl = "https://ogarcia.me/"
+theme = "freelancer"
+languageCode = "en-us"
+title = "Óscar · Exotic Systems Engineer"
+
+googleAnalytics = "UA-45820408-1"
+
+DefaultContentLanguage = "en"
+
+[Params]
+  # Metadata for search engines
+  name = "Óscar García Amor"
+  description = "Since I learn some magic words, like POSIX, virtualization or networking, I become to a 1st level wizard in the obscure art of the systems administration."
+  keywords = "oscar, garcia, amor, about, systems, engineer, engineering, devop, devops, continuous integration, unix, linux, solaris"
+  og_image = "//lh4.googleusercontent.com/-0w_NPLbQqjM/AAAAAAAAAAI/AAAAAAAAADs/IoD6fvmmVXo/s250-c/photo.jpg"
+  twitter_name = "@amhairghin"
+  twitter_image = "//lh4.googleusercontent.com/-0w_NPLbQqjM/AAAAAAAAAAI/AAAAAAAAADs/IoD6fvmmVXo/s500-c/photo.jpg"
+  email = "ogarcia@moire.org"
+
+  # 404 params (NOT translate)
+  notfound_title = "Page not found · Óscar · Exotic Systems Engineer"
+  notfound_subtitle = "Here are not the droids you were looking for"
+
+  [Params.navigation]
+    brand = "Óscar's Profile"
+
+  [Params.header]
+    # Image stored into './static/img/'
+    image = "ogarcia.jpg"
+    name = "Óscar García Amor"
+    subtitle = "Exotic Systems Engineer"
+
+  [Params.about]
+    title = "About"
+    left = "Since I learn some magic words, like POSIX, virtualization or networking, I become to a 1st level wizard in the obscure art of the systems administration."
+    right = "I have worked in several places like [CESGA](//www.cesga.es) or [everis](//www.everis.com), always as POSIX expert. I now lend my magic to [I+D at Telefónica](//tid.es), by the hand of [Amaris](//www.amaris.com), helping to build a better future."
+
+  [Params.social]
+    title = "Around the web"
+
+    [[Params.social.networks]]
+      # All icons using Fontawesome's icon font. Look for more at
+      # fortawesome.github.io/Font-Awesome/icons/
+      icon = "fa-github"
+      link = "//github.com/ogarcia"
+
+    [[Params.social.networks]]
+      icon = "fa-linkedin"
+      link = "//www.linkedin.com/in/oamor"
+
+    [[Params.social.networks]]
+      icon = "fa-twitter"
+      link = "//twitter.com/amhairghin"
+
+  [Params.contact]
+    title = "Contact"
+
+    [Params.contact.form.name]
+      text = "Name"
+      error = "Please enter your name."
+
+    [Params.contact.form.email]
+      text = "Email Address"
+      error = "Please enter your email address."
+      invalid = "Not a valid email address."
+
+    [Params.contact.form.phone]
+      text = "Phone Number"
+      error = "Please enter your phone number."
+
+    [Params.contact.form.message]
+      text = "Message"
+      error = "Please enter a message."
+
+    [Params.contact.form.button]
+      text = "Send"
+
+  [Params.footer]
+    copyright = "Published under the GPLv3 License. Powered by [Hugo](//gohugo.io)."
+
+    [Params.footer.location]
+      title = "Location"
+      address = ["Distrito T · Oeste 1 P6", "Madrid, ES 28050"]
+
+    [Params.footer.gpg]
+      title = "GPG"
+      text = "[0xbd41447de05755b9](/gpg/ogarcia-key.txt)"
+
+[Languages]
+[Languages.en]
+  weight = 1
+
+[Languages.es]
+  weight = 2
+  languageCode = "es-es"
+  title = "Óscar · Ingeniero de Sistemas Exóticos"
+  description = ""
+  keywords = "oscar, garcia, amor, sobre, sistemas, ingeniero, ingeniería, devop, devops, integración contínua, unix, linux, solaris"
+
+[Languages.es.navigation]
+  brand = "Perfil de Óscar"
+
+[Languages.es.header]
+  image = "ogarcia.jpg"
+  name = "Óscar García Amor"
+  subtitle = "Ingeniero de Sistemas Exóticos"
+
+[Languages.es.about]
+  title = "Sobre"
+  left = "En el momento que aprendí ciertas palabras mágicas como pueden ser POSIX, virtualizacion o redes, me convertí en un mago de primer nivel en el oscuro arte de la administración de sistemas."
+  right = "He trabajado en varios lugares como el [CESGA](//www.cesga.es) o [everis](//www.everis.com), siempre como experto en POSIX. Ahora presto mi magia al [I+D en Telefónica](//tid.es), de la mano de [Amaris](//www.amaris.com), ayudando a construir un futuro mejor."
+
+[Languages.es.social]
+  title = "Por la web"
+
+  [[Languages.es.social.networks]]
+    icon = "fa-github"
+    link = "//github.com/ogarcia"
+
+  [[Languages.es.social.networks]]
+    icon = "fa-linkedin"
+    link = "//www.linkedin.com/in/oamor"
+
+  [[Languages.es.social.networks]]
+    icon = "fa-twitter"
+    link = "//twitter.com/amhairghin"
+
+[Languages.es.contact]
+  title = "Contacto"
+
+  [Languages.es.contact.form.name]
+    text = "Nombre"
+    error = "Por favor introduce tu nombre."
+
+  [Languages.es.contact.form.email]
+    text = "Dirección de correo electrónico"
+    error = "Por favor introduce tu dirección de correo electrónico."
+    invalid = "No es una dirección de correo electrónico válida."
+
+  [Languages.es.contact.form.phone]
+    text = "Teléfono de contacto"
+    error = "Por favor introduce un teléfono de contacto."
+
+  [Languages.es.contact.form.message]
+    text = "Mensaje"
+    error = "Por favor introduce el mensaje."
+
+  [Languages.es.contact.form.button]
+    text = "Enviar"
+
+[Languages.es.footer]
+  copyright = "Publicado bajo licencia GPLv3. Energizado por [Hugo](//gohugo.io)."
+
+  [Languages.es.footer.location]
+    title = "Dirección"
+    address = ["Distrito T · Oeste 1 P6", "Madrid, ES 28050"]
+
+  [Languages.es.footer.gpg]
+    title = "GPG"
+    text = "[0xbd41447de05755b9](/gpg/ogarcia-key.txt)"

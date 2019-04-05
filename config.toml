@@ -42,6 +42,10 @@ DefaultContentLanguage = "en"
     [[Params.social.networks]]
       # All icons using Fontawesome's icon font. Look for more at
       # fortawesome.github.io/Font-Awesome/icons/
+      icon = "fa-rss"
+      link = "//blog.ogarcia.me"
+
+    [[Params.social.networks]]
       icon = "fa-github"
       link = "//github.com/ogarcia"
 
@@ -113,6 +117,10 @@ DefaultContentLanguage = "en"
 
 [Languages.es.social]
   title = "Por la web"
+
+  [[Languages.es.social.networks]]
+    icon = "fa-rss"
+    link = "//blog.ogarcia.me"
 
   [[Languages.es.social.networks]]
     icon = "fa-github"

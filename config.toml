@@ -11,7 +11,7 @@ DefaultContentLanguage = "en"
 [Params]
   # Metadata for search engines
   name = "Óscar García Amor"
-  description = "Since I learn some magic words, like POSIX, virtualization or networking, I become to a 1st level wizard in the obscure art of the systems administration."
+  description = "Since I learnt some magic words, such as POSIX, virtualization or networking, I became to a 1st level wizard in the obscure art of the systems administration."
   keywords = "oscar, garcia, amor, about, systems, engineer, engineering, devop, devops, continuous integration, unix, linux, solaris"
   og_image = "//lh4.googleusercontent.com/-0w_NPLbQqjM/AAAAAAAAAAI/AAAAAAAAADs/IoD6fvmmVXo/s250-c/photo.jpg"
   twitter_name = "@amhairghin"
@@ -33,8 +33,8 @@ DefaultContentLanguage = "en"
 
   [Params.about]
     title = "About"
-    left = "Since I learn some magic words, like POSIX, virtualization or networking, I become to a 1st level wizard in the obscure art of the systems administration."
-    right = "I have worked in several places like [CESGA](//www.cesga.es) or [everis](//www.everis.com), always as POSIX expert. I now lend my magic to [I+D at Telefónica](//tid.es), by the hand of [Amaris](//www.amaris.com), helping to build a better future."
+    left = "Since I learnt some magic words, such as POSIX, virtualization or networking, I became to a 1st level wizard in the obscure art of the systems administration."
+    right = "I have worked in several places such as [CESGA](//www.cesga.es) or [everis](//www.everis.com), always as POSIX expert. I now lend my magic to [I+D at Telefónica](//tid.es), by the hand of [Amaris](//www.amaris.com), helping to build a better future."
 
   [Params.social]
     title = "Around the web"

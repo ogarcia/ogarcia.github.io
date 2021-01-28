@@ -10,11 +10,11 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <ul class="list-inline text-center">
-            {{ range .Site.Params.social.networks }}
+            {{ range .Site.Params.social.networks -}}
             <li>
               <a {{ with .rel }}rel="{{.}}" {{ end -}} href="{{ .link }}" class="btn-social btn-outline" itemprop="sameAs"><i class="{{ .icon }}"></i></a>
             </li>
-            {{ end }}
+            {{- end }}
           </ul>
         </div>
     </div>

@@ -42,19 +42,24 @@ DefaultContentLanguage = "en"
     [[Params.social.networks]]
       # All icons using Fontawesome's icon font. Look for more at
       # fortawesome.github.io/Font-Awesome/icons/
-      icon = "fa-rss"
+      icon = "fas fa-rss"
       link = "//blog.ogarcia.me"
 
     [[Params.social.networks]]
-      icon = "fa-github"
+      icon = "fab fa-github"
       link = "//github.com/ogarcia"
 
     [[Params.social.networks]]
-      icon = "fa-linkedin"
+      icon = "fab fa-linkedin"
       link = "//www.linkedin.com/in/oamor"
 
     [[Params.social.networks]]
-      icon = "fa-twitter"
+      rel = "me"
+      icon = "fab fa-mastodon"
+      link = "//mastodon.social/@ogarcia"
+
+    [[Params.social.networks]]
+      icon = "fab fa-twitter"
       link = "//twitter.com/amhairghin"
 
   [Params.contact]

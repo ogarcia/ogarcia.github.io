@@ -8,10 +8,12 @@
     <title>{{ with .Site.Params.notfound_title }}{{ . }}{{ end }}</title>
     <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/freelancer.css" rel="stylesheet">
-		<link href="{{ .Site.BaseURL }}css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-		<link rel="shortcut icon" href="img/favicon.png">
+    <link href="{{ .Site.BaseURL }}css/font-awesome/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ .Site.BaseURL }}css/font-awesome/css/brands.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ .Site.BaseURL }}css/font-awesome/css/solid.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.png">
   </head>
   <body id="page-top" class="notfound">
     <header>
@@ -33,13 +35,13 @@
           <div class="col-lg-12 text-center">
             <ul class="list-inline text-center">
               <li>
-								<a href="{{ .Site.BaseURL }}" class="btn-social btn-outline"><i class="fa fa-fw fa-home"></i></a>
+                <a href="{{ .Site.BaseURL }}" class="btn-social btn-outline"><i class="fas fa-home"></i></a>
               </li>
-              {{ range .Site.Params.social.networks }}
+              {{ range .Site.Params.social.networks -}}
               <li>
-                <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                <a {{ with .rel }}rel="{{.}}" {{ end -}} href="{{ .link }}" class="btn-social btn-outline"><i class="{{ .icon }}"></i></a>
               </li>
-              {{ end }}
+              {{- end }}
             </ul>
           </div>
         </div>
